@@ -10,7 +10,6 @@
     list-style-type: none;
     transition: all 1s;
     scroll-behavior: smooth;
-    border: 1px solid red;
 }
 
 :root
@@ -756,11 +755,16 @@ ul li p
   gap:1.5rem;
 }
 
+.footer .box-container .box {
+
+  max-width: 80%;
+}
+
 .footer .box-container .box h3{
   font-size:  21px;
   color:var(--violet);
   padding:1rem 0;
-  width: 100%;
+
 }
 
 .footer .box-container .box h3 i{
@@ -772,6 +776,7 @@ ul li p
   font-size: 15px;
   color: black;
   padding:1rem 0;
+
 }
 
 .footer .box-container .box .links i{
@@ -789,6 +794,7 @@ ul li p
   font-size: 17px;
   color: black;
   padding:1rem 0;
+  width: 50%;
 }
 
 .footer .box-container .box .share a{
