@@ -1504,7 +1504,12 @@ none
     z-index: 10000;
   }
 }
-@media (max-width: 1087px) {
+@media (max-width: 1120px) {
+
+.a-propos
+{
+  padding: 10px;
+}
 
   .a-propos .box-container
 {
@@ -1512,6 +1517,14 @@ none
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  margin: auto;
+}
+
+.a-propos .box-container .box
+{
+  box-shadow:  1px 2px 12px rgba(0, 0, 0, 0.318);
+
+
 }
 
 .a-propos .box-container .box img
@@ -1519,6 +1532,8 @@ none
   height: 200px;
 
 }
+
+
 
 .a-propos .box-container .box h3
 {
