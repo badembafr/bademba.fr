@@ -289,50 +289,45 @@ input[type="checkbox"]
 .projets
 {
   background-color: hsl(250, 69%, 95%);
-  height: auto;
   padding: 10px;
-  width: 100%;
+
 }
 
 .projets .conteneur
 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.1rem, 1fr));
+  gap:1.5rem;
+  width: 92%;
+  margin: auto;
+  padding: 10px;
 }
 
 .projets .conteneur .box1
 {
   background-color: white;
   border-radius: 1rem;
-  width: 30%;
-  height: auto;
   margin-right: 10px;
   text-align: center;
   padding-bottom: 10px;
+  margin: auto;
 }
 
-.projets .conteneur .box2
+.projets .conteneur .box1 img
 {
-  background-color: white; 
-  border-radius: 1rem;
-  width: 30%;
-  height: auto;
-  margin-left: 10px;
-  text-align: center;
-  padding-bottom: 10px;
+  margin-inline: auto;
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
+
+
 
 .projets .conteneur .box1 p
 {
   color: hsl(0,0%,50%);
 }
 
-.projets .conteneur .box2 p
-{
-  color: hsl(0,0%,50%);
-}
 
 .projets .conteneur .box1 li a
 {
@@ -340,12 +335,6 @@ input[type="checkbox"]
 
 }
 
-
-
-.projets .conteneur .box2 li a
-{
-  color: white;
-}
 
 .projets .conteneur .box1 li a
 {
@@ -364,32 +353,8 @@ input[type="checkbox"]
   font-size: 14px;
 }
 
-.projets .conteneur .box2 li 
-{
-  background-color: hsl(250,69%,61%);
-  border-radius: 0.5rem;
-  width: 80px;
-  height: 30px;
-  padding-top: 4px;
-  margin-inline: auto;
-  font-size: 14px;
-}
 
-.projets .conteneur .box1 img
-{
-  margin-inline: auto;
-  width: 100%;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-}
 
-.projets .conteneur .box2 img
-{
-  margin-inline: auto;
-  width: 100%;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-}
 
 .projets .conteneur .box1 p
 {
@@ -397,11 +362,7 @@ input[type="checkbox"]
   padding-bottom: 5px;
 }
 
-.projets .conteneur .box2 p
-{
-  font-size: 13px;
-  padding-bottom: 5px;
-}
+
 /* PROJETS FIN */
 
 /* SERVICES DEBUT */
@@ -1692,27 +1653,7 @@ padding-right: 0px;
   font-size: 12px;
 }
 
-  .projets .conteneur .box1
-{
-  background-color: white;
-  border-radius: 1rem;
-  width: 35%;
-  height: auto;
-  margin-right: 10px;
-  text-align: center;
-  padding-bottom: 10px;
-}
 
-.projets .conteneur .box2
-{
-  background-color: white; 
-  border-radius: 1rem;
-  width: 35%;
-  height: auto;
-  margin-left: 10px;
-  text-align: center;
-  padding-bottom: 10px;
-}
 
 .competences .conteneur .box{
   width: 40%;
