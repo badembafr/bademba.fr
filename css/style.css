@@ -319,9 +319,12 @@ input[type="checkbox"]
   width: 100%;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
+  background-color: hsl(0, 0%, 77%);
+  pointer-events: none; /* Empêche le zoom sur l'image */
+  
 }
 
-
+.
 
 .projets .conteneur .box1 p
 {
