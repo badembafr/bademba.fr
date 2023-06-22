@@ -775,7 +775,7 @@ ul li p
 
 .footer .box-container .box .share a:hover{
   background: var(--gris);
-  color: #fff;
+  color: #000000;
 }
 
 .footer .box-container .box .email{
